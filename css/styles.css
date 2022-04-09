@@ -1,0 +1,181 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* headings */
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation bar part*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-right: 1.5rem;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+/* Download buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-image-row {
+  position: relative;
+}
+
+/* features */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/*press  */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* cta section*/
+/* footer */
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* media section for title section */
+@media(max-width:992px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+@media(min-width:1165px) {
+  .title-image {
+    position: absolute;
+    transform: rotate(20deg);
+    width: 60%;
+    right: 25%;
+  }
+}
+
+@media(min-width:992px) and (max-width:1165px) {
+  .title-image {
+    position: absolute;
+    right: 25%;
+    transform: rotate(20deg);
+    width: 60%;
+  }
+
+  .download-button {
+    margin: 5% 3% 5% 0;
+    padding: 2% 3% 2% 3%;
+  }
+}
